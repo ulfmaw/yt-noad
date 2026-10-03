@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube 去广告",
+  "version": "0.1.0",
+  "description": "把 YouTube 播放器收到的广告单子删掉。不联网、不收集任何数据。",
+  "content_scripts": [{
+    "matches": ["*://www.youtube.com/*"],
+    "js": ["noad.js"],
+    "run_at": "document_start",
+    "world": "MAIN"
+  }]
+}

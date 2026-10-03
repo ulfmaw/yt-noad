@@ -1,0 +1,8 @@
+{
+  "name": "yt-noad",
+  "version": "0.1.0",
+  "description": "A small open-source extension for YouTube player ad metadata",
+  "license": "MIT",
+  "scripts": { "test": "node --test tests/noad.test.cjs" },
+  "engines": { "node": ">=22" }
+}
